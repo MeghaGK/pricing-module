@@ -3,8 +3,7 @@
 git clone https://github.com/MeghaGK/pricing-module.git
 cd pricing-module
 python -m venv venv
-venv\Scripts\activate 
-# on linux, use `source venv/bin/activate`
+venv\Scripts\activate # on linux, use `source venv/bin/activate`
 pip install -r requirements.txt
 cd modules
 python manage.py makemigrations
