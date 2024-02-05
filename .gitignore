@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.env/
+
+# Ignore project-specific files and directories
+modules/__pycache__/
+modules/*.pyc
+modules/*.pyo
+modules/*.db.sqlite3
+modules/db.sqlite3
+modules/media/
+modules/static/
+modules/node_modules/
+modules/.vscode/
+modules/.idea/
+modules/**/migrations
+
+# Ignore Python bytecode files
+*.pyc
+
+
