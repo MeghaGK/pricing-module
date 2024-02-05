@@ -13,7 +13,6 @@ modules/static/
 modules/node_modules/
 modules/.vscode/
 modules/.idea/
-modules/**/migrations
 
 # Ignore Python bytecode files
 *.pyc
